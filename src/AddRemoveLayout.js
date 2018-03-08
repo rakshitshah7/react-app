@@ -109,6 +109,78 @@ class AddRemoveLayout extends React.PureComponent {
             },{
                 heading: "Response",
                 imgSrc: response
+            },{
+                heading: "Impressions",
+                value: "379K"
+            },{
+                heading: "Revenue",
+                value: "$12.6M"
+            },{
+                heading: "Return On Investment",
+                value: "60%"
+            },{
+                heading: "Response by Channel",
+                imgSrc: responseByChannel
+            },{
+                heading: "Investment",
+                imgSrc: investment
+            },{
+                heading: "Campaigns",
+                imgSrc: campaign
+            },{
+                heading: "Annual Budget",
+                imgSrc: annualBudget
+            },{
+                heading: "Response",
+                imgSrc: response
+            },{
+                heading: "Impressions",
+                value: "379K"
+            },{
+                heading: "Revenue",
+                value: "$12.6M"
+            },{
+                heading: "Return On Investment",
+                value: "60%"
+            },{
+                heading: "Response by Channel",
+                imgSrc: responseByChannel
+            },{
+                heading: "Investment",
+                imgSrc: investment
+            },{
+                heading: "Campaigns",
+                imgSrc: campaign
+            },{
+                heading: "Annual Budget",
+                imgSrc: annualBudget
+            },{
+                heading: "Response",
+                imgSrc: response
+            },{
+                heading: "Impressions",
+                value: "379K"
+            },{
+                heading: "Revenue",
+                value: "$12.6M"
+            },{
+                heading: "Return On Investment",
+                value: "60%"
+            },{
+                heading: "Response by Channel",
+                imgSrc: responseByChannel
+            },{
+                heading: "Investment",
+                imgSrc: investment
+            },{
+                heading: "Campaigns",
+                imgSrc: campaign
+            },{
+                heading: "Annual Budget",
+                imgSrc: annualBudget
+            },{
+                heading: "Response",
+                imgSrc: response
             }]
         };
 
