@@ -27,10 +27,10 @@ class AddRemoveLayout extends React.PureComponent {
 
         this.state = {
             items:
-                [{w: 2, h: 2, x: 8, y: 0, i: "0", add:false},
-                    {w: 2, h: 2, x: 8, y: 2, i: "1", add:false},
-                    {w: 2, h: 2, x: 8, y: 4, i: "2", add:false},
-                    {w: 2, h: 2, x: 10, y: 0, i: "3", add:false},
+                [{w: 2, h: 1, x: 9, y: 0, i: "0", add:false},
+                    {w: 2, h: 1, x: 9, y: 1, i: "1", add:false},
+                    {w: 2, h: 1, x: 9, y: 2, i: "2", add:false},
+                    {w: 2, h: 2, x: 9, y: 3, i: "3", add:false},
                     {w: 3, h: 3, x: 5, y: 0, i: "4", add:false},
                     {w: 3, h: 3, x: 1, y: 0, i: "5", add:false},
                     {w: 3, h: 3, x: 1, y: 3, i: "6", add:false},
@@ -62,6 +62,9 @@ class AddRemoveLayout extends React.PureComponent {
                 heading: "Response",
                 imgSrc: response
             },{
+                heading: "Impressions",
+                value: "379K"
+            },{
                 heading: "Revenue",
                 value: "$12.6M"
             },{
@@ -69,22 +72,19 @@ class AddRemoveLayout extends React.PureComponent {
                 value: "60%"
             },{
                 heading: "Response by Channel",
-                value: "50"
+                imgSrc: responseByChannel
             },{
                 heading: "Investment",
-                value: "90%"
+                imgSrc: investment
             },{
                 heading: "Campaigns",
-                value: "55"
+                imgSrc: campaign
             },{
                 heading: "Annual Budget",
-                value: "80"
+                imgSrc: annualBudget
             },{
-                heading: "Campaigns",
-                value: "55"
-            },{
-                heading: "Annual Budget",
-                value: "80"
+                heading: "Response",
+                imgSrc: response
             },{
                 heading: "Impressions",
                 value: "379K"
@@ -96,16 +96,19 @@ class AddRemoveLayout extends React.PureComponent {
                 value: "60%"
             },{
                 heading: "Response by Channel",
-                value: "50"
+                imgSrc: responseByChannel
             },{
                 heading: "Investment",
-                value: "90%"
+                imgSrc: investment
             },{
                 heading: "Campaigns",
-                value: "55"
+                imgSrc: campaign
             },{
                 heading: "Annual Budget",
-                value: "80"
+                imgSrc: annualBudget
+            },{
+                heading: "Response",
+                imgSrc: response
             }]
         };
 
