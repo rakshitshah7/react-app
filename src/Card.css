@@ -1,0 +1,21 @@
+.Card{
+    height: inherit;
+    width: inherit;
+    font-family: Tahoma;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Heading {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.Value {
+    padding: 10px;
+    font-size: 2em;
+}
+
+.Image {
+    height: 70%;
+    width: 100%;
+}
